@@ -21,5 +21,6 @@ namespace AppCoreBasicaMVC.Models
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
         public ICollection<Produto> Produtos { get; set; }
+
     }
 }
